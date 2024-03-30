@@ -1,6 +1,6 @@
-Sunnyside agency landing page solution
+#Sunnyside agency landing page solution
 
-This is a website for a made-up agencyy
+This is a website for a made-up agency
 
 ## Table of contents
 
