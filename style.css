@@ -93,6 +93,15 @@ h1 {
   padding: 10px;
   color: hsl(168, 34%, 41%);
 }
+
+.my-ul:hover {
+  color: white;
+}
+
+.ul1 {
+  border-bottom: solid 1px hsl(168, 34%, 41%);
+}
+
 .my-ul2 {
   display: inline;
   padding: 10px;
