@@ -1,6 +1,9 @@
 "use strict";
 const learnMore = document.querySelectorAll(".learn");
 const overlay = document.querySelector(".overlay");
+const email = document.querySelector(".sign-up-email");
+const password = document.querySelector(".sign-up-password");
+const signUp = document.querySelector(".sign-up-button");
 
 function showModal() {
   overlay.classList.remove("hide");
@@ -21,3 +24,8 @@ document.addEventListener("keydown", function (e) {
 });
 
 overlay.addEventListener("click", hideModal);
+
+signUp.addEventListener("click", function () {
+  console.log(email.textContent);
+  console.log(password.textContent);
+});
