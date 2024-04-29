@@ -18,7 +18,7 @@
   <body style="width: 100vw;">
     <section id="section1-bg">
       <div>
-        <header>
+        <header class="fixed-top">
           <nav class="navbar navbar-expand-lg bg-none py-3">
             <div class="container">
               <a class="navbar-brand text-white" href="#"
@@ -75,8 +75,8 @@
           </nav>
         </header>
 
-        <div style="width: 100%;" class="d-flex justify-content-center mt-5">
-          <div class="d-block"><h1 class="text-white text-center fw-bold">We are Creatives</h1></div>
+        <div style="width: 100%;" class="d-flex justify-content-center ">
+          <div class="d-block"><h1 class="text-white text-center fw-bold text-w">We are Creatives</h1></div>
         </div>
         <div  style="width: 100%;" class="d-flex justify-content-center mt-3"><svg width="36" height="114" xmlns="http://www.w3.org/2000/svg"><g stroke="#FFF" stroke-width="6" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M18 3v100M3 95.484l15 15 15-15"/></g></svg></div>
 
@@ -206,34 +206,35 @@
     </section>
 
     <section>
-      <div class="container-fluid p-0" >
-        <div class="row d-none d-md-flex">
-          <div class="col-3 p-0" style="height: 400px;">
-            <div style="height: 100%;">
-              <img src="./images/desktop/image-gallery-milkbottles.jpg" alt="milk bottles" width="100%">
+        <div class="container-fluid d-none d-md-flex  justify-content-center" >
+          <div class="row" style="height: 360px;">
+            <div class="col-3 p-0" >
+              <div style="height: 100%;">
+                <img src="./images/desktop/image-gallery-milkbottles.jpg" alt="milk bottles" width="100%">
+              </div>
             </div>
-          </div>
-
-          <div class="col-3 p-0" style="height: 400px;">
-            <div style="height: 100%;">
-              <img src="./images/desktop/image-gallery-orange.jpg" alt="milk bottles" width="100%">
+  
+            <div class="col-3 p-0" >
+              <div style="height: 100%;">
+                <img src="./images/desktop/image-gallery-orange.jpg" alt="milk bottles" width="100%">
+              </div>
             </div>
-          </div>
-
-          <div class="col-3 p-0" style="height: 400px;">
-            <div style="height: 100%;">
-              <img src="./images/desktop/image-gallery-cone.jpg" alt="milk bottles" width="100%">
+  
+            <div class="col-3 p-0" >
+              <div style="height: 100%;">
+                <img src="./images/desktop/image-gallery-cone.jpg" alt="milk bottles" width="100%">
+              </div>
             </div>
-          </div>
-
-          <div class="col-3 p-0" style="height: 400px;">
-            <div style="height: 100%;">
-              <img src="./images/desktop/image-gallery-sugarcubes.jpg" alt="milk bottles" width="100%">
+  
+            <div class="col-3 p-0" >
+              <div style="height: 100%;">
+                <img src="./images/desktop/image-gallery-sugarcubes.jpg" alt="milk bottles" width="100%">
+              </div>
             </div>
           </div>
           
         </div>
-      </div>
+      
     </section>
 
     <section class="mb-0 mb-lg-5">
@@ -278,22 +279,28 @@
             
           <form class="p-3 p-md-5 my-form">
             <div class="mb-3 text-start">
-              <label for="InputEmail1" class="form-label" style="color: hsl(210, 4%, 67%) ;">Email address</label>
-              <input type="email" class="form-control fw-bold" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <label for="InputEmail1" class="form-label " style="color: hsl(210, 4%, 67%) ;">Email address</label>
+              <input type="email" class="form-control fw-bold " id="exampleInputEmail1" aria-describedby="emailHelp">
             </div>
             <div class="mb-3 text-start">
               <label for="InputPassword1" class="form-label" style="color: hsl(210, 4%, 67%) ;">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
+              <input type="password" class="form-control " id="exampleInputPassword1">
             </div>
             <div class="mb-3 form-check text-start">
               <input type="checkbox" class="form-check-input" id="exampleCheck1">
               <label class="form-check-label" for="exampleCheck1" style="color:hsl(212, 27%, 19%);">remember password</label>
             </div>
-            <button type="submit" class="my-btn p-3 fw-bold" >Sign Up</button>
+            <button type="submit" class="my-btn p-3 fw-bold sign-up-button" >Sign Up</button>
           </form>
         </div>
       </div>
     </section>
+
+    <div class="mail-container">
+      <div class="mail d-flex justify-content-center align-items-center">
+       <a href="mailto:ariyostephen2004@gmail.com"><img src="./images/mail.png" alt="mail image" width="25px"></a> 
+      </div>
+    </div>
 
     <footer id="contact-me">
       <div class="container-fluid " style="background-color:  hsl(168, 55%, 62%);">
