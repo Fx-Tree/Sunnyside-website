@@ -2,7 +2,7 @@
   background-image: url(./images/desktop/image-header.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: local;
+  background-attachment: inherit;
   height: 100vh;
 }
 
@@ -27,7 +27,7 @@
   #section1-bg {
     background-image: url(./images/mobile/image-header.jpg);
     background-repeat: no-repeat;
-    background-attachment: local;
+    background-attachment: inherit;
     background-size: cover;
   }
 }
@@ -36,10 +36,14 @@
   #section1-bg {
     background-image: url(./images/desktop/image-header.jpg);
     background-repeat: no-repeat;
-    background-attachment: local;
+    background-attachment: inherit;
     background-size: cover;
     height: 90vh;
   }
+}
+
+.text-w {
+  margin-top: 20rem;
 }
 
 h1 {
@@ -157,4 +161,23 @@ h1 {
 
 .hide {
   display: none !important;
+}
+
+.mail-container {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100vw;
+  height: 100vh;
+}
+
+.mail {
+  position: absolute;
+  top: 90%;
+  right: 3%;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border: transparent;
+  border-radius: 50%;
 }
