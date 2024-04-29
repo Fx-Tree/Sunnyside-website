@@ -150,7 +150,7 @@ h1 {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(3px);
-  z-index: 1;
+  z-index: 2;
 }
 
 .mymodal {
@@ -165,16 +165,16 @@ h1 {
 
 .mail-container {
   position: fixed;
-  top: 0%;
-  left: 0%;
-  width: 100vw;
-  height: 100vh;
+  bottom: 0%;
+  right: 0%;
+  width: 20vw;
+  height: 20vh;
 }
 
 .mail {
   position: absolute;
-  top: 90%;
-  right: 3%;
+  top: 55%;
+  right: 10%;
   width: 50px;
   height: 50px;
   background-color: white;
